@@ -1,11 +1,14 @@
 
 
 body {
-    padding-left: 4%;
-    padding-right: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
+    
     
   }
-  
+  html {
+    scroll-behavior: smooth;
+  }
   .wrapper {
       display: grid;
       grid-gap: 10px;
@@ -35,7 +38,7 @@ body {
       position: fixed;
       background-color: white;
       width: 100%;
-      height: 8%;
+      height: 9%;
       
     }
   
@@ -44,12 +47,13 @@ body {
     margin: 0;
         text-decoration: none;
         top: 0%;
-      
+        padding-left: 4%;
+      padding-left: 1px;
       text-align: center;
       position: fixed;
       background-color: white;
       width: 18%;
-      max-height: 4%;
+      max-height: 3.5%;
       
     }
 
@@ -67,7 +71,7 @@ body {
       background-color: white;
       width: 7%;
       left: 50%;
-      top: 1.5%;
+      top: 2.5%;
       max-height: 4%;
       
     }
@@ -86,9 +90,9 @@ body {
       background-color: white;
       width: 7%;
       left: 60%;
-      top: 1.5%;
+      top: 2.5%;
       max-height: 4%;
-      
+    
     }
 
     .a4 {
@@ -104,7 +108,7 @@ body {
       width: 7%;
       left: 60%;
       left: 70%;
-      top: 1.5%;
+      top: 2.5%;
       max-height: 4%;
       
     }
@@ -121,7 +125,7 @@ body {
         background-color: white;
         width: 7%;
         left: 85%;
-        top: 1.5%;
+        top: 2.5%;
         max-height: 4%;
         
       
@@ -129,6 +133,7 @@ body {
 
 
     .esfera {
+      position: relative;
         padding: 0;
         margin: 0;
             text-decoration: none;
@@ -137,10 +142,12 @@ body {
           text-align: center;
           position: fixed;
           background-color: white;
-          top: 2%;
-      left: 70%;
-      left:90%;
-      max-height: 4%;
+          top: 2.5%;
+      left: 94.5%;
+      
+      max-height: 7%;
+      max-width: 11%;
+      
       
     }
    
@@ -318,7 +325,7 @@ body {
         margin-top: 100px;
         padding-top: 20px;
         grid-column: 5 / 8;
-        grid-row: 10 / 14;
+        grid-row: 11 / 14;
         text-align: left;
         align-content: top;
         align-self: top;
@@ -435,8 +442,13 @@ body {
       font-family: 'Open Sans', sans-serif;
     }
 
-    
-
+    .separate {
+      
+        padding-bottom: 2.8%;
+        grid-column: 1/20;
+        grid-row: 10/11;
+        text-align: left;
+    }
 
 
 
@@ -457,11 +469,18 @@ body {
 
   .image{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    
     max-width: 1000px;
     max-width: 100%;
     
+  }
+  .image2{
+    display: block;
+    
+    width: 100%;
+    
+    align-self: center;
+    bottom: 0%;
   }
 
   .simpletext{
@@ -489,4 +508,6 @@ body {
 .mano:hover{
     cursor: pointer;
 }
+
+
 
