@@ -572,8 +572,6 @@ body {
 }
 
 .textcenter{
-  display: none;
-  height: 0;
     padding-left: 10%;
     padding-right: 10%;
     margin: 60px;
