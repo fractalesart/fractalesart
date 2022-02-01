@@ -57,10 +57,20 @@ h1{
 }
 
 
-
+.backimage{
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: auto;
+    position: fixed;
+    display: none;
+}
 
 #centerimage {
-    
+    background-color: #000;
     display:none;
     position: relative;
    /*  left:0;
@@ -99,7 +109,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 8rem;
+    font-size: 6vw;
     /* position the div in center */
     position: absolute;
     top: 50%;
@@ -285,5 +295,83 @@ h1{
 /* .barra:hover .barra{
     background-color: white;
 } */
+
+
+
+#imagen360 {
+    
+    display:block;
+    position: relative;
+   /*  left:0;
+    right:0;
+    top: 35%;
+    bottom:35%; */
+   /*  margin:auto; */
+    content: url(assets/images/a8a23b308770133a10314465c7a948aa.png);
+    
+    max-width: 20%;
+    max-height: 100%;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    -o-object-fit: contain;
+    object-fit: contain;
+
+
+    
+  }
+
+  #hand {
+    
+    display:block;
+    position: relative;
+   /*  left:0;
+    right:0;
+    top: 35%;
+    bottom:35%; */
+   /*  margin:auto; */
+    content: url(assets/images/a059988bc5e65c7c6c131e646d235a5f.png);
+    top: 45px;
+    
+    max-width: 13%;
+    max-height: 100%;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: auto;
+    position: fixed;
+    right: 0;
+    
+    -o-object-fit: contain;
+    object-fit: contain;
+
+
+    animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+
+    
+  }
+
+
+  @keyframes example {
+    0%   {left:-100px; top:60px;}
+    50%  { left:100px; top:60px;}
+   
+    100%  {left:-100px; top:60px;}
+    
+    
+  }
+
+  #hideme {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+  }
 
 /*# sourceMappingURL=main.css.map*/
