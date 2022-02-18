@@ -233,7 +233,7 @@ body {
         text-align: left;
         font-family: 'Lato', sans-serif;
         
-      grid-column: 11/ 14 ;
+      grid-column: 11/ 15 ;
       grid-row: 2/3 ;
       
       /* align-self: center; */
