@@ -178,7 +178,7 @@ h1{
     margin:auto;
     content: url(assets/images/0cfd6489536ec0987466795401497368.png);
 
-    width: 3%;
+    width: 4%;
     bottom: 0;
     left: 0;
     margin: auto;
@@ -387,6 +387,7 @@ h1{
   }
 
   #hideme {
+    display: none;
       position: absolute;
       width: 100%;
       height: 100%;
