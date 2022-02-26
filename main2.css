@@ -49,6 +49,8 @@ body {
       height: 8%;
 
       min-height: 4vw;
+
+      max-height: 200px;
       
     }
   
@@ -152,7 +154,7 @@ body {
           position: fixed;
          
           top: 2.5%;
-      left: 95.5%;
+      left: 93.5%;
       
       max-height: 7%;
       max-width: 11%;
@@ -237,7 +239,7 @@ body {
       grid-row: 2/3 ;
       
       /* align-self: center; */
-      top: 5%;
+      padding-top: calc(4vh + 1px);
       
       
     }
