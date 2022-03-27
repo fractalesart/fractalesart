@@ -53,7 +53,7 @@ h1{
     place-items: top;
     font-size: 3.2vw;
     text-transform: uppercase;
-    color: black;
+    color: white;
     position: absolute;
    top: -1%;
    z-index: 3;
@@ -212,7 +212,7 @@ h1{
   .barra{
     width: 30px;
     height: 3px;
-    background-color: black;
+    background-color: white;
     margin: 5px 0;
   
   }
