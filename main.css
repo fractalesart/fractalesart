@@ -120,7 +120,7 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 6vw;
+    font-size: 4vw;
     /* position the div in center */
     position: absolute;
     top: 50%;
@@ -179,7 +179,7 @@ h1{
     margin:auto;
     content: url(assets/images/0cfd6489536ec0987466795401497368.png);
 
-    width: 4%;
+    width: 5%;
     bottom: 0;
     left: 0;
     margin: auto;
@@ -262,7 +262,7 @@ h1{
     /* left: 50px; */
     /* referente al padre que este tiene */
     background-color: black;
-    min-width: 160px;
+    min-width: 200px;
     max-height: 0;
     overflow: hidden;
     /* border-bottom-right-radius: 25px;  */  
@@ -279,6 +279,7 @@ h1{
     color: white;
     text-decoration: none;
     display: block;
+    font-weight: 900;
     
 }
 
@@ -417,7 +418,7 @@ h1{
  
     font-size: 1.2rem;
     /* text-transform: uppercase; */
-    color: black;
+    color: white;
     position: absolute;
   
    z-index: 1;
