@@ -53,12 +53,13 @@ h1{
     place-items: top;
     font-size: 3.2vw;
     text-transform: uppercase;
-    color: white;
+    color: black;
     position: absolute;
    top: -1%;
    z-index: 3;
    -webkit-transform: translate3d(0,0,3px);
     transform: translate3d(0,0,3px);
+    font-weight: 600;
 }
 
 
@@ -131,12 +132,80 @@ h1{
 
 
 
+  .tarjeta {
+    font-family: 'Lato', sans-serif;
+    width: 28%;
+    /* height: 100px; */
+    
+    
+    line-height: 1.42;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-weight: 500;
+    top: 50%;
+    left: 50%;
+    
+    box-shadow: 5px 5px 5px black;
+    padding: 20px;
+    font-size: 10px;
+    
+    min-width: 300px;
+    
+    min-height: 300px;
+    max-height: 450px;
+    font-weight: 600;
+    overflow: auto;
+
+    padding-top: 35px;
+
+    z-index: 5;
+   -webkit-transform: translate3d(0,0,5px);
+    transform: translate3d(0,0,5px) translate(-50%, -50%);
+
+  }
+
+
+  .tarjeta-overflow {
+    min-height: 450px;
+  }
+  
+  .tarjeta::-webkit-scrollbar-track {
+    
+    padding: 2px 0;
+    background-color: white;
+  }
+  
+  .tarjeta::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  .tarjeta::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: aliceblue;
+    border: 1px solid rgb(232, 232, 232);
+  }
 
 
 
 
 
 
+
+
+#cerrartarjeta{
+  position: absolute;
+  text-align: right;
+  right: 8px;
+  top: 8px;
+}
+
+#cerrartarjeta:hover{
+
+  cursor: pointer;
+
+}
 
   #centervideo {
     width:100%;
@@ -205,6 +274,8 @@ h1{
   }
 
 
+  
+
 
   
   /* ------------- */
@@ -212,7 +283,7 @@ h1{
   .barra{
     width: 30px;
     height: 3px;
-    background-color: white;
+    background-color: black;
     margin: 5px 0;
   
   }
@@ -418,7 +489,7 @@ h1{
  
     font-size: 1.2rem;
     /* text-transform: uppercase; */
-    color: white;
+    color: black;
     position: absolute;
   
    z-index: 1;
@@ -427,11 +498,14 @@ h1{
 
     bottom: 33px;
     left: 90px;
+    font-weight: 600;
 }
 
 
 .link{
   font-family: 'Lato', sans-serif;
 }
+
+
 
 /*# sourceMappingURL=main.css.map*/
