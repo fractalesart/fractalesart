@@ -53,13 +53,13 @@ h1{
     place-items: top;
     font-size: 3.2vw;
     text-transform: uppercase;
-    color: black;
+    color: white;
     position: absolute;
    top: -1%;
    z-index: 3;
    -webkit-transform: translate3d(0,0,3px);
     transform: translate3d(0,0,3px);
-    font-weight: 600;
+    font-weight: 300;
 }
 
 
@@ -116,6 +116,7 @@ h1{
     color: transparent;
     /* width: 50%;
     min-height: 300px; */
+    width: 60%;
     height: 0%;
     padding: 5px;
     display: flex;
@@ -127,6 +128,8 @@ h1{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-weight: 300;
+    text-transform: uppercase;
   }
 
 
@@ -134,41 +137,48 @@ h1{
 
   .tarjeta {
     font-family: 'Lato', sans-serif;
-    width: 28%;
+    width: 30%;
     /* height: 100px; */
+
+    max-height: 75%;
     
     
-    line-height: 1.42;
+    line-height: 1.28;
     justify-content: center;
     align-items: center;
     position: absolute;
-    font-weight: 500;
+    /* font-weight: 400; */
     top: 50%;
     left: 50%;
     
     box-shadow: 5px 5px 5px black;
-    padding: 20px;
-    font-size: 10px;
+    padding: 27px;
+    font-size: 0.7rem;
     
     min-width: 300px;
     
-    min-height: 300px;
-    max-height: 450px;
+    
+    
     font-weight: 600;
     overflow: auto;
 
     padding-top: 35px;
 
-    z-index: 5;
-   -webkit-transform: translate3d(0,0,5px);
+
+    z-index: 21;
+      -webkit-transform: translate3d(0,0,21px);
+    transform: translate3d(0,0,21px);
+
+
+    
     transform: translate3d(0,0,5px) translate(-50%, -50%);
 
   }
 
 
-  .tarjeta-overflow {
-    min-height: 450px;
-  }
+  /* .tarjeta-overflow {
+    min-height: 500px;
+  } */
   
   .tarjeta::-webkit-scrollbar-track {
     
@@ -283,7 +293,7 @@ h1{
   .barra{
     width: 30px;
     height: 3px;
-    background-color: black;
+    background-color: white;
     margin: 5px 0;
   
   }
@@ -489,7 +499,7 @@ h1{
  
     font-size: 1.2rem;
     /* text-transform: uppercase; */
-    color: black;
+    color: white;
     position: absolute;
   
    z-index: 1;
