@@ -48,7 +48,7 @@ h1{
     padding: 0;
     padding-top: 5px;
     font-family: 'Lato', sans-serif;
-    
+    width: 100%;
     display: block;
     place-items: top;
     font-size: 3.2vw;
