@@ -1,8 +1,8 @@
 
 
 body {
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
     
     
   }
@@ -21,7 +21,7 @@ body {
       display: grid;
       grid-gap: 10px;
       grid-row-gap: 10px     ;
-      grid-template-columns: repeat(15   , 1fr);
+      grid-template-columns: repeat(14   , 1fr);
     
       padding: 5px;
 
@@ -46,11 +46,11 @@ body {
       position: fixed;
       background-color: white;
       width: 100%;
-      height: 8%;
+      height: 8.5%;
 
-      min-height: 4vw;
+      min-height: 4.2vw;
 
-      max-height: 200px;
+      max-height: 30px;
       
     }
   
@@ -144,7 +144,7 @@ body {
 
 
     .esfera {
-      position: relative;
+      position: absolute;
         padding: 0;
         margin: 0;
             text-decoration: none;
@@ -153,11 +153,11 @@ body {
           text-align: center;
           position: fixed;
          
-          top: 2.5%;
-      left: 93.5%;
+          top: 1.5%;
+      left: calc(100% - 50px);
       
-      max-height: 7%;
-      max-width: 11%;
+      max-height: 50px;
+      max-width: 50px;
       
       
     }
@@ -182,10 +182,10 @@ body {
     font-family: 'Lato', sans-serif;
     
     
-    
+    font-size: 2vw;
     color: #838383;
     
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     text-transform: uppercase;
    
     
@@ -224,7 +224,7 @@ body {
       }
 
     .b {
-        margin-top: 5%;
+      top: calc(8% + 2px);
       grid-column: 1/11;
       grid-row: 2 / 3;
       
@@ -235,11 +235,11 @@ body {
         text-align: left;
         font-family: 'Lato', sans-serif;
         
-      grid-column: 11/ 15 ;
+      grid-column: 11/ 16 ;
       grid-row: 2/3 ;
       
       /* align-self: center; */
-      padding-top: calc(4vh + 1px);
+      padding-top: calc(8% + 2px);
       
       
     }
@@ -338,8 +338,8 @@ body {
     .m {
         
         
-        grid-column: 5 / 8;
-        grid-row: 11 / 13;
+        grid-column: 3 / 8;
+        grid-row: 11 / 16;
         text-align: left;
         align-content: top;
         align-self: top;
@@ -480,8 +480,8 @@ body {
     .form {
       
         
-      grid-column: 6 / 11;
-      grid-row: 22;
+      grid-column: 4 / 13;
+      grid-row: 24;
       text-align: center;
       
       
@@ -490,7 +490,7 @@ body {
   border-radius: 1em;
   padding: 3.5em 1.5em;
   
-  padding-top: 100px;
+  padding-top: 60px;
  /*  z-index: 50; */
   } 
 
@@ -618,24 +618,26 @@ body {
 }
 
 
-@media screen and (max-width: 900px) {
-
-  .form {
+.creditos {
       
         
-    grid-column: 2 / 14;
-    grid-row: 22;
-    text-align: center;
-    
-    
-width: 100%;
-
-border-radius: 1em;
-padding: 3.5em 1.5em;
-
-padding-top: 100px;
-/*  z-index: 50; */
-} 
+  grid-column: 2 / 7;
+  grid-row: 23;
+  text-align: left;
+  
 }
 
+.z {
 
+  
+    padding-top: 0;
+   
+    
+  
+  grid-row: 2/3 ;
+
+  
+  grid-column: 7/15;
+  grid-row: 23;
+  
+}
