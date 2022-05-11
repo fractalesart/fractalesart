@@ -79,6 +79,11 @@ h1{
     z-index: 21;
 }
 
+#gira{
+  background-image: url(assets/images/1a698bcdb95d3951c5990ede4a043ed1.gif);
+  background-size: cover;
+}
+
 #centerimage {
     background-color: #000;
     display:none;
@@ -335,6 +340,8 @@ h1{
     right: 100% - 40px; 
 }
 
+
+
 .dropdown-content{
     display: none;
     position: fixed;
@@ -374,8 +381,8 @@ h1{
 
 /* cuando estemos sobre la lista. pero solo sobre el boton */
 .dropdown:hover .dropdown-btn {
-    background-color: #000;
-    transform: scale(1.05, 1.05);
+    /* background-color: #000; */
+    transform: scale(1.1, 1.1);
 }
 
 .dropdown:hover .barra {
