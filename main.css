@@ -10,6 +10,7 @@ body
     /* overflow: hidden; */
     /* Overflow: visible; */
     -webkit-overflow-scrolling: auto !important;
+    cursor: url(assets/images/abf481089b5299c2b555fe36b13a02da.png),auto;
 }
 
 
@@ -113,26 +114,31 @@ h1{
     
   }
   
-
+  .fade{
+    opacity: 1;
+    transition: 3s;
+}
 
   .textcenter{
-    display: none;
+    position: absolute;
+    display: block;
     font-family: 'Lato', sans-serif;
-    color: transparent;
+    color: white;
     /* width: 50%;
     min-height: 300px; */
-    width: 60%;
+    width: 100%;
     height: 0%;
-    padding: 5px;
-    display: flex;
+    /* padding: 5px; */
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     font-size: 4vw;
     /* position the div in center */
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 35%;
+    text-align: center;
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
     font-weight: 300;
     text-transform: uppercase;
   }
@@ -141,8 +147,9 @@ h1{
 
 
   .tarjeta {
+    display: none;
     font-family: 'Lato', sans-serif;
-    width: 30%;
+    width: 20%;
     /* height: 100px; */
 
     max-height: 75%;
@@ -153,7 +160,7 @@ h1{
     align-items: center;
     position: absolute;
     /* font-weight: 400; */
-    top: 50%;
+    top: 14%;
     left: 50%;
     
     box-shadow: 5px 5px 5px black;
