@@ -81,7 +81,7 @@ h1{
 }
 
 #gira{
-  background-image: url(assets/images/1a698bcdb95d3951c5990ede4a043ed1.gif);
+  background-image: url(assets/images/9595eaadf46faaaf374c6da414ba0142.gif);
   background-size: cover;
 }
 
@@ -195,7 +195,7 @@ h1{
   .tarjeta::-webkit-scrollbar-track {
     
     padding: 2px 0;
-    background-color: white;
+    background-color: #ddddddc5;
   }
   
   .tarjeta::-webkit-scrollbar {
