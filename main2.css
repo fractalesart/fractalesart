@@ -588,6 +588,13 @@ body {
     max-width: 100%;
     
   }
+
+
+  .imagefit{
+    width: 7vw;
+    float: center;
+    padding: 8px;
+  }
   .image2{
     display: block;
     
