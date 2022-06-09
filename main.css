@@ -2,6 +2,7 @@
 {
     margin: 0;
     padding: 0;
+    
 }
 
 html,
@@ -195,7 +196,7 @@ h1{
   .tarjeta::-webkit-scrollbar-track {
     
     padding: 2px 0;
-    background-color: #ddddddc5;
+    background-color: #242424c5;
   }
   
   .tarjeta::-webkit-scrollbar {
