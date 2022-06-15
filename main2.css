@@ -441,7 +441,7 @@ body {
 
     .o {
         margin-top: 100px;
-        grid-column: 2/9;
+        grid-column: 2/8;
         grid-row:  16/20;
         
       }
@@ -449,19 +449,19 @@ body {
       .p {
         
         
-        grid-column: 9 / 14;
+        grid-column: 8 / 15;
         grid-row: 19;
         display: flex;
       align-items: flex-end;
       justify-content: flex-end;
-        
+      
     } 
 
 
      .q {
         
         
-        grid-column: 9 / 14;
+        grid-column: 8 / 15;
         grid-row: 18;
         text-align: left;
         display: flex;
@@ -591,9 +591,9 @@ body {
 
 
   .imagefit{
-    width: 7vw;
-    float: center;
-    padding: 8px;
+    width: 25%;
+    float: right;
+    padding: 2px;
   }
   .image2{
     display: block;
@@ -619,6 +619,34 @@ body {
     font-weight: 800;
 }
 
+
+.textcenter2{
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 20px;
+  font-family: 'Lato', sans-serif;
+
+  font-size: 1px;
+  
+  font-size: 1vw;
+  color: black;
+  font-weight: 800;
+  line-height: 1.55vw;
+}
+
+
+.textcenter{
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: 20px;
+  font-family: 'Lato', sans-serif;
+
+  font-size: 1px;
+  
+  font-size: 1.5vw;
+  color: black;
+  font-weight: 800;
+}
 
 .mano:hover{
     cursor: pointer;
