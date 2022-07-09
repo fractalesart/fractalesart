@@ -145,7 +145,24 @@ h1{
   }
 
 
+#ok{
 
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 17px;
+  padding: 10px;
+
+  margin-left: 10px;
+
+  color: white;
+  margin-top: 17px;
+
+}
+
+#ok:hover{
+  background-color: rgba(255, 255, 255, 0.522);
+  color: #000;
+}
 
   .tarjeta {
     display: none;
@@ -161,7 +178,7 @@ h1{
     align-items: center;
     position: absolute;
     /* font-weight: 400; */
-    top: 14%;
+    top: 20%;
     left: 50%;
     
     box-shadow: 5px 5px 5px black;
